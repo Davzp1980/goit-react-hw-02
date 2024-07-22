@@ -2,6 +2,7 @@ import css from './App.module.css';
 import Description from './components/Descriptions/Description';
 import Options from './components/Options/Options';
 import Feedback from './components/Feedback/Feedback';
+import Notification from './components/Notification/Notification';
 import { useEffect, useState } from 'react';
 
 function App() {
@@ -56,6 +57,7 @@ function App() {
         totalFeedback={totalFeedback}
         positiveFeedback={positiveFeedback}
       />
+      <Notification totalFeedback={totalFeedback} />
     </div>
   );
 }
