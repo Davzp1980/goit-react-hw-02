@@ -12,7 +12,6 @@ function Feedback({ feedback, totalFeedback, positiveFeedback }) {
       </div>
     );
   }
-  return <p>No feedback yet</p>;
 }
 
 export default Feedback;
